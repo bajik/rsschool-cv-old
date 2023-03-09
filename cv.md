@@ -29,6 +29,7 @@ alert(result);
 ```
 ## Education
 - **University:** Kharkiv Polytechnic Institute
+- **Codewars:** ![codewars](https://www.codewars.com/users/bajik/badges/micro)
 ## Languages:
 - **English** - Intermediate
 - **Ukrainian** - Native
