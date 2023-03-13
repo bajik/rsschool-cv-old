@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
@@ -13,12 +14,12 @@
       <h2>Junior Frontend Developer</h2>
     </header>
     <main>
-      <section>
+      <section class="contact-info">
         <h2>Contact information:</h2>
         <ul>
-          <li><strong>Phone:</strong><a href="tel:+380955529435">+38 (095) 552-94-35</a></li>
-          <li><strong>E-mail:</strong><a href="mailto:eababenko@gmail.com">eababenko@gmail.com</a></li>
-          <li><strong>Telegram:</strong><a href="https://t.me/ea_babenko">@ea_babenko</a></li>
+          <li><strong>Phone: </strong><a href="tel:+380955529435">+38 (095) 552-94-35</a></li>
+          <li><strong>E-mail: </strong><a href="mailto:eababenko@gmail.com">eababenko@gmail.com</a></li>
+          <li><strong>Telegram: </strong><a href="https://t.me/ea_babenko">@ea_babenko</a></li>
         </ul>
       </section>
       <section>
@@ -37,18 +38,16 @@
           <li>PHP (Basic)</li>
         </ul>
       </section>
-      <section>
-        <h2></h2>
-        <pre><code>
-const sum(a, b) => {
-  return a + b;
+      <section class="code-example">
+        <h2>Code Example:</h2>
+        <pre><code><span class="keyword">const</span> <span class="function">sum</span>(a, b) <span class="keyword">=></span> {
+  <span class="keyword">return</span> a <span class="keyword">+</span> b;
 }
 
-let result = sum(1, 2);
-alert(result);
-        </code></pre>
+<span class="keyword">let</span> result <span class="keyword">=</span> <span class="function">sum</span>(1, 2);
+<span class="function">alert</span>(result);</code></pre>
       </section>
-      <section>
+      <section class="education">
         <h2>Education:</h2>
         <ul>
           <li><strong>University:</strong> Kharkiv Polytechnic Institute</li>
